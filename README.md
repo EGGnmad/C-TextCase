@@ -2,7 +2,7 @@
 
 <br>
 
-**example.c**
+[**example.c**](https://github.com/EGGnmad/C-TextCase/blob/main/example.c)
 ```c
 	//lower case
 	printf("%s\n", LowerCase("THIS IS LOWER CASE!")); // this is lower case!
