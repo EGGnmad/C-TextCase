@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "len.c"
+#include "lowerCase.c"
 
 char* UpperCase(char * t){
 	char * text = malloc(sizeof(char));
@@ -13,10 +12,4 @@ char* UpperCase(char * t){
 	}
 
 	return text;
-}
-
-int main(){
-	
-	printf("%s", UpperCase("hello, world!"));
-	return 0;
 }

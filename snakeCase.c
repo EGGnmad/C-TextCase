@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "len.c"
+#include "strictProperCase.c"
 
-char* LowerCase(char* t){
+char* SnakeCase(char* t){
 	char* text = malloc(sizeof(char));
-	
+
 	for (int i = 0; i < len(t); i++){
 		text[i] = t[i];
-		if(text[i] >= 65 && text[i] <= 90){
-			text[i] += 32;
+		if(text[i] == 32){
+			text[i] = 95;
 		}
 	}
 
